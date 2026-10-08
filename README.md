@@ -9,6 +9,8 @@
 
 **实测**：端到端 35~60 秒 ｜ 单次约 1.5~2 万 tokens ｜ 9 节点工作流 ｜ 打分逻辑迭代 7 版
 
+🎬 **演示视频（2 分钟）** <https://www.bilibili.com/video/BV1BwHD68EgB/>
+
 ---
 
 ## 目录
@@ -42,6 +44,8 @@ HR 初筛的真实痛点：
 ---
 
 ## 二、效果预览
+
+🎬 **演示视频**：<https://www.bilibili.com/video/BV1BwHD68EgB/>（2 分钟，完整走一遍评估流程）
 
 **一份真实的评估报告长这样**（节选自 [`logs/样例输出-一次完整运行.txt`](logs/样例输出-一次完整运行.txt) ——
 那是一次完整运行的原始输出，含分数、分项明细、结构化字段与报告全文）：
@@ -468,6 +472,7 @@ hr-recruit-agent/
 │   ├── 样例输出-一次完整运行.txt     ← 一次完整运行的原始输出（含报告全文）
 │   └── GitHub推送问题排查与解决.md   ← 推送失败的网络排查过程
 └── demo/                        ← demo 视频（视频不入库，见 .gitignore）
+                                    实际地址：https://www.bilibili.com/video/BV1BwHD68EgB/
 ```
 
 ---
