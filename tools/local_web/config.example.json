@@ -1,0 +1,5 @@
+{
+  "_说明": "把本文件复制成 config.json，然后填上你的密钥。config.json 不要提交到 GitHub。",
+  "api_base": "http://localhost/v1",
+  "api_key": "在这里填 Dify 的 API 密钥（形如 app-xxxxxxxxxxxxxxxx）"
+}

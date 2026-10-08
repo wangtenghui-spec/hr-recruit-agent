@@ -1,0 +1,4 @@
+双击执行成功！
+时间 : 2026/10/07 周三 16:29:26.31
+脚本 : C:\agent\hr-recruit-agent\tools\local_web\自检-双击测试.bat
+目录 : C:\agent\hr-recruit-agent\tools\local_web

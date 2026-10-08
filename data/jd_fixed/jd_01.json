@@ -1,0 +1,75 @@
+{
+  "_说明": "岗位档案（固化版）。由 JD解析 跑出的结果经人工审阅后固化，同一岗位的所有候选人共用这一份，保证打分分母恒定、分数可比。",
+  "_来源": "run fa2988f2",
+  "_审阅要点": [
+    "keywords 每条都是单一术语（避免'候选人数据库维护'这类带动作的长词）",
+    "hard_requirements 只含可从简历核验的条件",
+    "软性素质在 soft_qualities 里，不参与计分",
+    "带'优先/加分'的在 nice_to_have 里"
+  ],
+  "_用法": "运行时把本文件全部内容粘贴到「用户输入 / jd_json_fixed」；跑完确认「岗位要求路由」节点的 jd_source = fixed",
+  "job_title": "人力资源实习生（招聘方向）",
+  "seniority": "实习",
+  "hard_requirements": [
+    "大专及以上在读",
+    "每周可到岗 4 天以上",
+    "实习期不少于 3 个月",
+    "熟练使用 Excel",
+    "熟练使用 Word",
+    "熟练使用 PPT"
+  ],
+  "nice_to_have": [
+    "人力资源、心理学、管理学相关专业优先"
+  ],
+  "soft_qualities": [
+    "沟通表达清晰",
+    "做事细心",
+    "有责任心"
+  ],
+  "keywords": [
+    {
+      "word": "简历筛选",
+      "weight": 5
+    },
+    {
+      "word": "电话初筛",
+      "weight": 5
+    },
+    {
+      "word": "面试安排",
+      "weight": 5
+    },
+    {
+      "word": "Excel",
+      "weight": 5
+    },
+    {
+      "word": "候选人数据库",
+      "weight": 4
+    },
+    {
+      "word": "校园宣讲会",
+      "weight": 4
+    },
+    {
+      "word": "双选会",
+      "weight": 4
+    },
+    {
+      "word": "招聘台账",
+      "weight": 3
+    },
+    {
+      "word": "周报数据",
+      "weight": 3
+    },
+    {
+      "word": "Word",
+      "weight": 3
+    },
+    {
+      "word": "PPT",
+      "weight": 3
+    }
+  ]
+}
